@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60) no-repeat center center/ cover;
+}
+.container {
+  width: 550px;
+  height: 450px;
+}
+.header {
+  font-size: 1.2rem;
+  border: solid 2px white;
+  color: #fff;
+  background-color: #262626;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.main-content {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 50px 40px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.main-content .text-area {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.main-content .person {
+  font-size: 1.6rem;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.button-area button {
+  background-color: #262626;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.button-area button:active {
+  background-color: #fff;
+  color: #262626;
+  border: 2px solid #262626;
+}
